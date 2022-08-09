@@ -14,7 +14,7 @@ main();
 
 function movieHTML(movie) {
   return `<div class="movie">
-  <div class="movie-card">s
+  <div class="movie-card">
     <div class="movie-card__container">
         <img src="${movie.poster}" alt="">
       <h3>${movie.title}</h4>
